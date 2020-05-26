@@ -9,6 +9,11 @@ public:
     virtual void withdraw(double amount) {
         std::cout << "In Account::withdraw" << std::endl;
     }
+    /*
+    If a class has virtual functions
+    ALWAYS provide a public virtual desctructror
+    */
+    virtual ~Account() {};
 };
 class Checking: public Account {
 public:
