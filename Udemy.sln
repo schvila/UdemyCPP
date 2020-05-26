@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PureVirtualsAbstract", "PureVirtualsAbstract\PureVirtualsAbstract.vcxproj", "{66E91CA6-EF19-431B-9D42-63D2C7648B71}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartPointers", "SmartPointers\SmartPointers.vcxproj", "{01003F65-F8A7-48D8-9725-606A5A202034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{66E91CA6-EF19-431B-9D42-63D2C7648B71}.Release|x64.Build.0 = Release|x64
 		{66E91CA6-EF19-431B-9D42-63D2C7648B71}.Release|x86.ActiveCfg = Release|Win32
 		{66E91CA6-EF19-431B-9D42-63D2C7648B71}.Release|x86.Build.0 = Release|Win32
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Debug|x64.ActiveCfg = Debug|x64
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Debug|x64.Build.0 = Debug|x64
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Debug|x86.ActiveCfg = Debug|Win32
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Debug|x86.Build.0 = Debug|Win32
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Release|x64.ActiveCfg = Release|x64
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Release|x64.Build.0 = Release|x64
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Release|x86.ActiveCfg = Release|Win32
+		{01003F65-F8A7-48D8-9725-606A5A202034}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
