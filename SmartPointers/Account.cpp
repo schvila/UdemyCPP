@@ -25,7 +25,7 @@ double Account::get_Balance() const {
 	return balance;
 }
 
-std::ostream& operator<<(std::ostream& os, const Account& account) {
-	os << "[Account: " << account.name << ": " << account.balance << "]";
+std::ostream& operator<<(std::ostream& os, const IPrintable& obj) {
+	obj.print(os);
 	return os;
 }
