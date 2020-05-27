@@ -15,28 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SmartPointers.cpp">
+    <ClCompile Include="ExceptionInFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Account.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SavingsAccount.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StdException.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Account.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SavingsAccount.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IllegalBalanceException.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
