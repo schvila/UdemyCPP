@@ -54,7 +54,7 @@ void testSaredTest() {
     std::cout << "Use count: " << ptr.use_count() << std::endl;
 
 }
-int main()
+int not_main()
 {
     //std::unique_ptr<Test> t1{ new Test(100) };
     //std::unique_ptr<Test> t2 = std::make_unique<Test>(1000);
@@ -69,6 +69,6 @@ int main()
         std::cout << *acc << std::endl;
     testSaredInt();
     testSaredTest();
-
+    return 0;
 }
 
