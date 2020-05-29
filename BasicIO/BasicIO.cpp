@@ -5,8 +5,15 @@
 using namespace std;
 
 
-int main()
+int main(int argc, char* argv[])
 {
+    /*********** Get exe FullPath******************************
+    char basePath[255] = "";
+    _fullpath(basePath, argv[0], sizeof(basePath));
+    cout << "FullPath: " << basePath <<endl;
+    return 0;
+    **********************************************************/
+
     //cout << "Hello";
     //cout << " World!" << endl;
     //cout << "one\ntwo\nthree\n";
